@@ -16,9 +16,12 @@ class CampaignsAdManagerController extends Controller
     {
        //return 'Hello World';
 
-       foreach (CampaignAdManager::all() as $flight) {
+       $results = CampaignAdManager::all();
+
+       var_dump($results);
+      /* foreach (CampaignAdManager::all() as $flight) {
         echo $flight->campaign_admanager_id;
-    }
+    }*/
 
     }
 }
