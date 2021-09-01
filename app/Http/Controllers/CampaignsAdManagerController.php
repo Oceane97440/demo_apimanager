@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 use App\Models\CampaignAdManager;
+use App\Models\Campaign;
+
 
 
 class CampaignsAdManagerController extends Controller
