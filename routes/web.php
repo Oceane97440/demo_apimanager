@@ -16,6 +16,6 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
-$router->get('/report', 'CampaignsAdManagerController@report');
-$router->get('/test', 'AdManagerReport@report');
+$router->get('/report', 'CampaignsController@report');
+$router->get('/test', 'AdManagerController@report');
 

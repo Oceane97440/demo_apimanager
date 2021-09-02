@@ -112,11 +112,7 @@ $app->router->group([
     require __DIR__.'/../routes/web.php';
 });
 
-$app->router->group([
-    'namespace' => ' Google\AdsApi\AdManager\v202108\NetworkService',
-], function ($router) {
-    require __DIR__.'/../vendor/autoload.php';
-});
+
 
 
 

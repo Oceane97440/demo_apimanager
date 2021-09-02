@@ -17,7 +17,7 @@ use App\Models\Campaign;
 
 
 
-class AdManagerReport extends Controller
+class AdManagerController extends Controller
 {
 
   
@@ -59,6 +59,6 @@ class AdManagerReport extends Controller
     }
 }
 
-AdManagerReport::main();
+AdManagerController::main();
 
 
